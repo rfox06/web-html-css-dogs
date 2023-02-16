@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navbar*/
+.container {
+    margin: 0 auto;
+    padding: 0px 100px;
+    max-width: 1355px;
+}
+
+.container__header{
+    background: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background: red;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navbar h1{
+    font-size: 35px;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+
+}
+.navbar h1 a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.container__header ul{
+    background: yellow;
+    display: flex;
+    list-style: none;
+    margin: 10px 20px;
+}
+.container__header ul li{
+    margin: 15px;
+}
+
+.container__header ul li a{
+    text-decoration: none;
+}
+
+/*header-content*/
+
+.content__header{
+    background: lightseagreen;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    
+
+}
+.header__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkmagenta;
+    height: 560px;
+    width: 550px;
+}
+
+.header__right img{
+    
+    max-width: 90%;
+    max-height: 90%; 
+    object-fit: contain;
+} 
+
+.header__left{
+    height: 550px;
+    width: 550px;
+    background: floralwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.header__left h1{
+    
+    background: red;
+    margin: 0 60px;
+    font-size: 70px;
+}
+.header__left p{
+    background: lightseagreen;
+    margin: 60px;
+    font-size: 40px;
+}
+
+
+/*ABOUT US*/
+
+.content__about{
+    background: sienna;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.content__about .about__right{
+    background: rebeccapurple;
+    display: flex;
+    
+}
+.content__about .about__right img{
+    width: 570px;
+    height: 760px;
+}
+
+
+.content__about .about__left{
+    display: flex;
+    justify-content: center;
+    background: rebeccapurple;
+    
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.content__about .about__left h2{
+    font-size: 40px;
+    margin: 0 33px;
+
+}
+.content__about .about__left p{
+    letter-spacing: 0.5px;
+    font-size: 26px;
+    margin: 0 33px;
+}
+.content__about .about__left span{
+    background: khaki;
+    font-size: 25px;
+    margin: 0 30px;
+    color: --medium-color;
+}
+.content__about .about__left ul {
+    background: brown;
+    margin: 0px 50px;
+}
+.content__about .about__left img{
+    margin: 0px 0px 0px 50px;
+    max-width: 13%;
+    max-height: 13%; 
+    object-fit: contain;
+}
+/*our trainers*/
+
+.trainers{
+    background: springgreen;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.trainers .trainers__text{
+    background: cadetblue;
+    height: 200px;
+    width: 700px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.trainers .trainers__text h2{
+    font-size: 30px;
+}
+.trainers .trainers__text p{
+    margin: 30px 0;
+    background-color: crimson;
+    text-align: center;
+    font-size: 20px;
+}
+
+.trainers .trainers__text img{
+    max-width: 30%;
+    max-height: 30%; 
+    object-fit: contain;
+}
+
+.trainers__content{
+    background: darkslategray;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.trainers__content .trainer__1{
+    background: #fff;
+    margin: 10px;
+}
+.trainers__content .trainer__2{
+    background: #fff;
+    margin: 10px;
+}
+.trainers__content .trainer__3{
+    background: #fff;
+    margin: 10px;
+}
+
+.trainers__content  img{
+    max-width: 100%;
+    max-height: 100%; 
+    object-fit: contain;
+}
+
+.trainers__content h3{
+    padding: 20px;
+    font-size: 20px;
+}
+.trainers__content p{
+    padding: 15px;
+    font-size: 16px;
+}
+
+.trainers__content ul{
+    display: flex;
+    width: 200px;
+    height: 60px;
+    background: maroon;
+    margin: 2px 0 2px 30px;
+    padding: 15px;
+}
+
+/*pricing table*/
+
+.pricing {
+    background: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pricing  .pricing__text{
+    background-color: aquamarine;
+
+}
+
+.pricing  .pricing__text img{
+    max-width: 30%;
+    max-height: 30%; 
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
