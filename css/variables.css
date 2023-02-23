@@ -3,5 +3,15 @@
     --primary-light-color: #a2c0be;
     --medium-color: #567876;
     --primary-dark-color: gray;
+
+    --extra: #212529;
+
+    --primary-rgb-dark: rgb(86, 120, 118);
+    --secondary-rgb-dark: rgb(64, 90, 88);
+    --light-background: rgb(162, 192, 190);
+    --pricing-color: rgba(255, 255, 255, 0.4);
+
+    --white: #fff;
+    --black-color: #000;
     
 }

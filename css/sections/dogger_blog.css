@@ -1,0 +1,98 @@
+
+.dogger__blog {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dogger__text {
+    
+    margin: 20px ;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 650px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dogger__text h2{
+    font-size: 34px;
+    color: var(--black-color);
+}
+
+.dogger__text p{
+
+    margin: 20px 0 0px 0;
+    text-align: center;
+    font-size: 16px;
+    color: var(--medium-color);
+}
+/*content dogger*/
+.dogger__content {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dogger__content img{
+    width: 200px;
+    height: 130px;
+    margin-top: 10px;
+}
+
+.dogger__content .dogger__article{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dogger__info {
+    
+    height: 280px;
+    width: 310px;
+    margin: 10px 40px 5px 0;
+    padding: 15px;
+    
+}
+
+.dogger__info h3{
+    margin-bottom: 10px;
+    color: var(--black-color);
+}
+.dogger__info h3:hover{
+    color: var(--medium-color);
+}
+.dogger__info span{
+    color: var(--medium-color);
+    
+}
+
+.dogger__info article{
+    margin-top: 30px;
+    color: var(--extra);
+}
+
+.dogger__info button{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

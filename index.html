@@ -5,29 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
+
+    <link rel="stylesheet" href="/css/sections/header.css">
+    <link rel="stylesheet" href="/css/sections/about_us.css">
+    <link rel="stylesheet" href="/css/sections/our_trainers.css">
+    <link rel="stylesheet" href="/css/sections/pricing_table.css">
+    <link rel="stylesheet" href="/css/sections/dogger_blog.css">
+    <link rel="stylesheet" href="/css/sections/our_services.css">
+    <link rel="stylesheet" href="/css/sections/form.css">
+    <link rel="stylesheet" href="/css/sections/footer.css">
+
 </head>
 
 <body>
 
     <header class="container container__header">
-        <section class="navbar">
-            <h1>
-                <a href="#">Dogger</a>
-                <span>.</span>
-            </h1>
-            <ul>
+        <nav class="menu">
+            <label class="logo">Dogger.</label>
+            <ul class="menu__items">
                 <li><a href="#">Home</a> </li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Trainers</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-        </section>
+            <span class="btn__menu">
+                <i class="fa-solid fa-bars">menu</i>
+            </span>
+        </nav>
+
+
         <section class="content__header">
             <div class="header__right">
-                <img src="./assets/home/dogger_img_1.png.webp" alt="">
+                <img src="/assets/home/dogger_img_1.png.webp" alt="">
             </div>
             <div class="header__left">
                 <h1>WE CARE FOR YOUR DOG</h1>
@@ -38,10 +53,10 @@
 
     <section class="container content__about">
         <div class="about__right">
-            <img src="./assets/about/dogger_img_big_1.jpg.webp" alt="">
+            <img src="/assets/about/dogger_img_big_1.jpg.webp" alt="">
         </div>
         <div class="about__left">
-            <img src="./assets/paws.png" alt="">
+            <img src="/assets/paws.png" alt="">
             <h2>ABOUT US</h2>
             <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
 
@@ -59,52 +74,77 @@
 
     <section class="container trainers">
         <div class="trainers__text">
-            <img src="assets/paws.png" alt="">
-            <h2>OUR TRTAINERS</h2>
+            <img src="/assets/paws.png" alt="">
+            <h2>OUR TRAINERS</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
                 blind texts.
             </p>
         </div>
         <div class="trainers__content">
             <div class="trainer__1">
-                <img src="./assets/trainers/dogger_trainer_1.jpg.webp" alt="">
-                <h3>Jessica White</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-                    the blind texts.</p>
-                <ul class="socials">
-                    <li><a href="#"><span class="icon-twiter"></span></a></li>
-                    <li><a href="#"><span class="icon-twiter"></span></a></li>
-                    <li><a href="#"><span class="icon-twiter"></span></a></li>
-                </ul>
+                <img src="/assets/trainers/dogger_trainer_1.jpg.webp" alt="">
+
+                <div class="trainer__info">
+
+                    <h3>Jessica White</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live
+                        the blind texts.</p>
+                    <ul class="socials">
+                        <li><a href="#"><img class="social-icon" src="/assets/socials-icons/facebook.svg" alt=""></a>
+                        </li>
+                        <li><a href="#"><img class="social-icon" src="/assets/socials-icons/instagram.svg" alt=""></a>
+                        </li>
+
+                        <li><a href="#"><img class="social-icon" src="/assets/socials-icons/square-twitter.svg"
+                                    alt=""></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="trainer__2">
-                <img src="./assets/trainers/dogger_trainer_2.jpg.webp" alt="">
-                <h3>Valerie Elash</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-                    the blind texts.</p>
-                <ul class="socials">
-                    <li><a href="#"><span class="icon-twiter"></span></a></li>
-                    <li><a href="#"><span class="icon-twiter"></span></a></li>
-                    <li><a href="#"><span class="icon-twiter"></span></a></li>
-                </ul>
+            <div class="trainer__1">
+                <img src="/assets/trainers/dogger_trainer_2.jpg.webp" alt="">
+                <div class="trainer__info">
+
+                    <h3>Valerie Elash</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live
+                        the blind texts.</p>
+                    <ul class="socials">
+                        <li><a href="#"><img class="social-icon" src="/assets/socials-icons/facebook.svg" alt=""></a>
+                        </li>
+                        <li><a href="#"><img class="social-icon" src="/assets/socials-icons/instagram.svg" alt=""></a>
+                        </li>
+
+                        <li><a href="#"><img class="social-icon" src="/assets/socials-icons/square-twitter.svg"
+                                    alt=""></a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="trainer__3">
-                <img src="./assets/trainers/dogger_trainer_3.jpg.webp" alt="">
-                <h3>Alicia Jones</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
-                    the blind texts.</p>
-                <ul class="socials">
-                    <li><a href="#"><span class="icon-twiter"></span></a></li>
-                    <li><a href="#"><span class="icon-twiter"></span></a></li>
-                    <li><a href="#"><span class="icon-twiter"></span></a></li>
-                </ul>
+            <div class="trainer__1">
+                <img src="/assets/trainers/dogger_trainer_3.jpg.webp" alt="">
+                <div class="trainer__info">
+
+                    <h3>Alicia Jones</h3>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live
+                        the blind texts.</p>
+                    <ul class="socials">
+                        <li><a href="#"><img class="social-icon" src="/assets/socials-icons/facebook.svg" alt=""></a>
+                        </li>
+                        <li><a href="#"><img class="social-icon" src="/assets/socials-icons/instagram.svg" alt=""></a>
+                        </li>
+
+                        <li><a href="#"><img class="social-icon" src="/assets/socials-icons/square-twitter.svg"
+                                    alt=""></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="container pricing">
         <div class="pricing__text">
-            <img src="assets/paws.png" alt="">
+            <img src="/assets/paws.png" alt="">
             <h2>PRICING TABLE</h2>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
                 blind texts.
@@ -119,31 +159,31 @@
                 <ul class="price">
                     <li>Officia quaerat eaque neque</li>
                     <li>Possimus aut consequuntur incidunt</li>
-                    <li>Lorem ipsum dolor sit amet</li>
-                    <li>Consectetur adipisicing elit</li>
-                    <li>Dolorum esse odio quas architecto sint</li>
+                    <li class="underlined">Lorem ipsum dolor sit amet</li>
+                    <li class="underlined">Consectetur adipisicing elit</li>
+                    <li class="underlined">Dolorum esse odio quas architecto sint</li>
                 </ul>
                 <button>Buy Now</button>
             </div>
-            <div class="pricing__1">
+            <div class="pricing__2">
 
-                <h3>BASIC</h3>
+                <h3>PREMIUM</h3>
                 <br>
-                <span>$47 / year</span>
+                <span>$250 / year</span>
                 <ul class="price">
                     <li>Officia quaerat eaque neque</li>
                     <li>Possimus aut consequuntur incidunt</li>
                     <li>Lorem ipsum dolor sit amet</li>
                     <li>Consectetur adipisicing elit</li>
-                    <li>Dolorum esse odio quas architecto sint</li>
+                    <li class="underlined">Dolorum esse odio quas architecto sint</li>
                 </ul>
                 <button>Buy Now</button>
             </div>
             <div class="pricing__1">
 
-                <h3>BASIC</h3>
+                <h3>PROFESSIONAL</h3>
                 <br>
-                <span>$47 / year</span>
+                <span>$850 / year</span>
                 <ul class="price">
                     <li>Officia quaerat eaque neque</li>
                     <li>Possimus aut consequuntur incidunt</li>
@@ -156,8 +196,213 @@
         </div>
     </section>
 
+    <section class="container dogger__blog">
+        <div class="dogger__text">
+
+            <h2>DOGGER BLOG</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts.</p>
+        </div>
+        <div class="dogger__content">
+            <div class="dogger__article">
+                <img src="/assets/dogger/dogger_img_sm_1.jpg.webp" alt="">
+                <div class="dogger__info">
+
+                    <h3>5 Things You Need To Know About Dog Massage</h3>
+                    <span>April 17, 2019</span>
+                    <article>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                        there
+                        live the blind texts.
+                    </article>
+                    <button>Read More..</button>
+                </div>
+            </div>
+            <div class="dogger__article">
+                <img src="/assets/dogger/dogger_img_sm_2.jpg.webp" alt="">
+                <div class="dogger__info">
+
+                    <h3>5 Things You Need To Know About Dog Massage</h3>
+                    <span>April 17, 2019</span>
+                    <article>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                        there
+                        live the blind texts.
+                    </article>
+                    <button>Read More..</button>
+                </div>
+            </div>
+            <div class="dogger__article">
+                <img src="/assets/dogger/dogger_img_sm_3.jpg.webp" alt="">
+                <div class="dogger__info">
+
+                    <h3>5 Things You Need To Know About Dog Massage</h3>
+                    <span>April 17, 2019</span>
+                    <article>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                        there
+                        live the blind texts.
+                    </article>
+                    <button>Read More..</button>
+                </div>
+            </div>
+            <div class="dogger__article">
+                <img src="/assets/dogger/dogger_img_sm_1.jpg.webp" alt="">
+                <div class="dogger__info">
+
+                    <h3>5 Things You Need To Know About Dog Massage</h3>
+                    <span>April 17, 2019</span>
+                    <article>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                        there
+                        live the blind texts.
+                    </article>
+                    <button>Read More..</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container services">
+        <div class="services__text">
+            <h2>OUR SERVICES</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts.</p>
+        </div>
+        <div class="list__services">
+            <div class="services__content">
+                <img src="/assets/services/dogger_checkup.svg" alt="">
+                <h3>Dog Checkup</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the
+                    blind texts.
+                </p>
+            </div>
+            <div class="services__content">
+                <img src="/assets/services/dogger_dermatology.svg" alt="">
+                <h3>Dog Dermatology</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the
+                    blind texts.
+                </p>
+            </div>
+            <div class="services__content">
+                <img src="/assets/services/dogger_bones.svg" alt="">
+                <h3>For Strong Teeth </h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the
+                    blind texts.
+                </p>
+            </div>
+            <div class="services__content">
+                <img src="/assets/services/dogger_veterinary.svg" alt="">
+                <h3>Dog First Aid</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the
+                    blind texts.
+                </p>
+            </div>
+            <div class="services__content">
+                <img src="/assets/services/dogger_dryer.svg" alt="">
+                <h3>Dog Dryer</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the
+                    blind texts.
+                </p>
+            </div>
+            <div class="services__content">
+                <img src="/assets/services/dogger_veterinarian.svg" alt="">
+                <h3>Expert Veterinarian</h3>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                    the
+                    blind texts.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container form">
+        <div class="form__right">
+            <img src="/assets/paws.png" alt="">
+            <h3>CONTACT US</h3>
+            <ul>
+                <li class="form__title">Address:
+                    <p>Melbourne St,South Birbane 4101 Austraila</p>
+                </li>
+                <li class="form__title">Phone:
+                    <p>+(000) 123 4567 89</p>
+                </li>
+                <li class="form__title">Email:
+                    <p>info@yourdomain.com</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="form__left">
+            <h2>Contact Form</h2>
+            <ul>
+                <div class="form__names">
+                    <div class="first__name">
+
+                        <p>First Name</p>
+                        <input type="text"><label for=""></label></input>
+                    </div>
+                    <div class="last__name">
+
+                        <p>Last Name</p>
+                        <input type="text"><label for=""></label></input>
+                    </div>
+
+                </div>
+                <div class="contact__form">
+                    <li>
+                        <p>Email</p>
+                        <input type="text"><label for=""></label></input>
+                    </li>
+                    <li>
+                        <p>Subject</p>
+                        <input type="text"><label for=""></label></input>
+                    </li>
+                    <li>
+                        <p>Message</p>
+                        <input class="message" type="text"><label for=""></label></input>
+                    </li>
+                </div>
+            </ul>
+            <button>Send Message</button>
+        </div>
+    </section>
+
+    <footer class="container footer">
+        <div class="footer__about">
+            <h3>About Us</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem.
+                Amet aliquid nesciunt veritatis aliquam.</p>
+        </div>
+        <div class="footer__links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li>About Us</li>
+                <li>Trainers</li>
+                <li>Services</li>
+                <li>Testimonials</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="footer__socials">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><img src="/assets/socials-icons/facebook.svg" alt=""></li>
+                <li><img src="/assets/socials-icons/instagram.svg" alt=""></li>
+                <li><img src="/assets/socials-icons/linkedin.svg" alt=""></li>
+                <li><img src="/assets/socials-icons/square-twitter.svg" alt=""></li>
+            </ul>
+        </div>
+        <div class="footer__suscriber">
+            <h3>Subscribe Newsletter</h3>
+            <input type="Email">
+            <button>send</button>
+        </div>
+    </footer>
 
 
+    <script src="/js/index.js"></script>
 </body>
 
 </html>

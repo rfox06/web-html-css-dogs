@@ -1,0 +1,138 @@
+
+/*pricing table*/
+
+.pricing {
+    
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.pricing  .pricing__text{
+    height: 200px;
+    width: 650px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.pricing__text h2{
+    font-size: 34px;
+    color: var(--black-color);
+}
+.pricing__text p{
+    padding: 15px;
+    margin: 20px 0 0px 0;
+    text-align: center;
+    font-size: 16px;
+    color: var(--medium-color);
+}
+
+.pricing  .pricing__text img{
+    max-width: 30%;
+    max-height: 30%; 
+    object-fit: contain;
+}
+
+.pricing__content{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    
+}
+.pricing__content .price .underlined{
+    color: var(--pricing-color);
+    text-decoration: line-through;
+}
+.pricing__1 {
+    background: var(--light-background);
+    gap: 10px;
+    width: 360px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    
+}
+.pricing__2{
+    background: rgb(52, 58, 64);
+    gap: 10px;
+    width: 360px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.pricing__content .pricing__2 h3{
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+    font-size: 30px;
+    text-align: center;
+    color: var(--white);
+}
+.pricing__content .pricing__2 span {
+    font-size: 30px;
+    color: var(--white);
+}
+.pricing__content .pricing__2 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+    color: var(--white);
+}
+.pricing__content .pricing__2 button {
+    background: rgb(52, 58, 64);
+    margin: 0px 100px;
+    height: 50px;
+    width: 130px;
+    color: var(--white);
+    border-radius: 30px;
+}
+
+.pricing__content h3 {
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+    font-size: 30px;
+    text-align: center;
+    color: var(--white);
+}
+.pricing__content .pricing__1 span {
+    
+    font-size: 30px;
+    color: var(--white);
+}
+.pricing__content .pricing__1 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px;
+    padding: 20px;
+    color: var(--white);
+}
+
+.pricing__content .pricing__1 button{
+    background: rgb(52, 58, 64);
+    margin: 0px 100px;
+    height: 50px;
+    width: 130px;
+    color: var(--white);
+    border-radius: 30px;
+}
